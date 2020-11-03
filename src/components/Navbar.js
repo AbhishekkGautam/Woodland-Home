@@ -34,7 +34,7 @@ const Navbar = ({ toggleSidebar }) => {
           <ul className="hidden lg:flex lg:justify-end">
             {data.map(link => {
               return (
-                <li key={link.id} className="mr-8">
+                <li key={link.id} className="pr-8">
                   <Link
                     to={link.url}
                     className="capitalize lg:py-2 lg:px-1 lg:hover:text-orange-800 lg:text-gray-600 lg:transition-all lg:duration-300 lg:ease-linear"
@@ -46,7 +46,7 @@ const Navbar = ({ toggleSidebar }) => {
             })}
             <li>
               <div className="text-gray-700">
-                <CgShoppingCart className="text-2xl lg:mr-3 snipcart-checkout" />
+                <CgShoppingCart className="text-2xl mr-3 snipcart-checkout" />
               </div>
             </li>
           </ul>
