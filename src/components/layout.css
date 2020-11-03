@@ -4,9 +4,29 @@
 
 @tailwind utilities;
 
+.hero-area {
+  max-height: calc(100vh - theme("height.32"));
+}
+
+.whitechair {
+  width: 500px;
+  height: 500px;
+}
+@media screen and (max-width: 768px) {
+  .whitechair {
+    width: 450px;
+    height: 300px;
+  }
+}
+
+.imagetext {
+  top: 8px;
+  right: 16px;
+}
+
 /* SIDEBAR */
 .sidebar {
-  background: #fbdac4;
+  background: #fde3d2;
   position: fixed;
   top: 0;
   left: 0;
