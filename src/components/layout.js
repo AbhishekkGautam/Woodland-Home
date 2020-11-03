@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
     setIsOpen(!isOpen)
   }
   return (
-    <div>
+    <div className="mt-0">
       <Navbar toggleSidebar={toggleSidebar} />
       <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar} />
       {children}
