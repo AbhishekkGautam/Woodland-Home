@@ -9,15 +9,15 @@ import lamp from "../images/contentful/lamp.png"
 const HeroSection = () => {
   return (
     <div className="w-full">
-      <div className="max-w-screen-lg xl:pl-4 xl:pr-4 xl:mx-auto">
-        <div className="grid grid-cols-2 md:grid-cols-4 md:grid-rows-2 md:gap-5 hero-area ">
+      <div className="max-w-screen-lg xl:pl-4 xl:pr-4 xl:mx-auto h-auto">
+        <div className="grid grid-cols-2 md:grid-cols-4 md:grid-rows-2 md:gap-5">
           <div className="md:row-span-2 col-span-2 bg-purple-100 md:pt-40 pt-16 relative hover:bg-gray-200 transition-all duration-500 ease-in-out">
             <img
               src={whitechair}
               alt=""
               className="whitechair object-cover transform hover:-translate-y-3 transition-transform duration-500 ease-in-out"
             />
-            <h1 className="absolute top-0 left-0 font-light border border-gray-500 px-6 md:px-10 py-3  md:py-4 mt-8 ml-8 ">
+            <h1 className="absolute top-0 left-0 font-light md:text-sm lg:text-base font-lato border border-gray-500 px-6 md:px-8 lg:px-10 py-3 lg:py-4 mt-8 ml-8 ">
               Comfortable Sofa
             </h1>
           </div>
@@ -27,7 +27,7 @@ const HeroSection = () => {
               alt=""
               className="object-cover transform hover:-translate-y-3 transition-transform duration-500 ease-in-out"
             />
-            <h1 className="absolute top-0 right-0 font-light border border-gray-500 px-6 md:px-10 py-3  md:py-4 mt-8 mr-8">
+            <h1 className="absolute top-0 right-0 font-light md:text-sm lg:text-base border border-gray-500 px-6 md:px-8 lg:px-10 py-3 lg:py-4 mt-8 mr-8">
               Amazing Lighting
             </h1>
           </div>
