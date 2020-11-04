@@ -11,6 +11,9 @@ module.exports = {
         96: "24rem",
         herosection: "44rem",
       },
+      fontFamily: {
+        lato: ["lato", "sans-serif"],
+      },
     },
   },
   variants: {},
