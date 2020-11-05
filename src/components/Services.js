@@ -17,7 +17,7 @@ const Services = () => {
             </p>
           </div>
           <div className="text-center font-lato flex flex-col items-center">
-            <div className="bg-gray-200 rounded-full p-5">
+            <div className="bg-gray-200 rounded-full px-5 py-3">
               <FaTruck className="text-xl" />
             </div>
             <h1 className="pt-6 pb-2 font-semibold">Free Shipping Worldwide</h1>
