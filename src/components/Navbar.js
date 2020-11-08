@@ -14,11 +14,6 @@ const Navbar = ({ toggleSidebar }) => {
     },
     {
       id: 2,
-      text: "about",
-      url: "/about/",
-    },
-    {
-      id: 3,
       text: "contact",
       url: "/contact/",
     },
@@ -37,7 +32,7 @@ const Navbar = ({ toggleSidebar }) => {
                 <li key={link.id} className="pr-8">
                   <Link
                     to={link.url}
-                    className="capitalize lg:py-2 lg:px-1 lg:hover:text-orange-800 lg:text-gray-600 lg:transition-all lg:duration-300 lg:ease-linear"
+                    className="capitalize lg:py-2 lg:px-1 lg:hover:text-gray-500 lg:transition-all lg:duration-300 lg:ease-linear"
                   >
                     {link.text}
                   </Link>
