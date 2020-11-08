@@ -3,7 +3,7 @@ import Img from "gatsby-image"
 
 const SingleFeaturedProduct = ({ product }) => {
   return (
-    <div className="bg-white rounded-lg overflow-hidden shadow-md">
+    <div className="bg-white rounded-lg overflow-hidden border border-gray-100">
       <div className="flex justify-center items-center pt-3">
         <Img
           className="object-cover"
