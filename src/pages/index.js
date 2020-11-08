@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import HeroSection from "../components/HeroSection"
 import Services from "../components/Services"
-import FeaturedProduct from "../components/FeaturedProduct"
+import FeaturedProducts from "../components/FeaturedProducts"
 import ShopNow from "../components/ShopNow"
 import Social from "../components/Social"
 import LatestNews from "../components/LatestNews"
@@ -15,7 +15,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <HeroSection />
     <Services />
-    <FeaturedProduct />
+    <FeaturedProducts />
     <ShopNow />
     <Social />
     <LatestNews />
