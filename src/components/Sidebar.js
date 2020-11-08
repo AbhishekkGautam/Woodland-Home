@@ -17,11 +17,6 @@ const Sidebar = ({ toggleSidebar, isOpen }) => {
     },
     {
       id: 3,
-      text: "About",
-      url: "/about/",
-    },
-    {
-      id: 4,
       text: "contact",
       url: "/contact/",
     },
