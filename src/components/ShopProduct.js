@@ -38,10 +38,10 @@ export default class ShopProduct extends Component {
   render() {
     if (this.state.items.length > 0) {
       return (
-        <section className="w-full py-12 md:py-20">
+        <section className="w-full py-8 md:py-12">
           <div className="max-w-screen-lg xl:pl-4 xl:pr-4 xl:mx-auto mx-12 md:mx-20">
             {/*Categories*/}
-            <div className="flex items-start flex-wrap mb-12 md:mb-16">
+            <div className="flex items-start flex-wrap mb-12 md:mb-20">
               {this.state.categories.map((category, index) => {
                 return (
                   <div
