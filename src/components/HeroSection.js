@@ -1,10 +1,9 @@
 import React from "react"
-import Chair from "../images/contentful/chair.png"
-import whitechair from "../images/contentful/chair6.png"
-// import Sofa1 from "../images/contentful/chair2.jpg"
-// import Sofa1 from "../images/contentful/chair2.jpg"
-import lamp2 from "../images/contentful/lamp2.png"
-import lamp from "../images/contentful/lamp.png"
+import Chair from "../images/heroimage/chair.webp"
+import whitechair from "../images/heroimage/whitechair.webp"
+
+import wiredlamp from "../images/heroimage/wiredlamp.webp"
+import tablelamp from "../images/heroimage/tablelamp.webp"
 
 const HeroSection = () => {
   return (
@@ -23,7 +22,7 @@ const HeroSection = () => {
           </div>
           <div className="col-span-2 bg-blue-100 relative overflow-hidden hover:bg-yellow-200 transition-all duration-500 ease-in-out">
             <img
-              src={lamp2}
+              src={wiredlamp}
               alt=""
               className="object-cover transform hover:-translate-y-3 transition-transform duration-500 ease-in-out"
             />
@@ -43,7 +42,7 @@ const HeroSection = () => {
           </div>
           <div className="bg-yellow-100 relative hover:bg-red-100 transition-all duration-500 ease-in-out">
             <img
-              src={lamp}
+              src={tablelamp}
               alt=""
               className="object-cover pt-24 w-full pl-5 transform hover:-translate-y-3 transition-transform duration-500 ease-in-out"
             />
