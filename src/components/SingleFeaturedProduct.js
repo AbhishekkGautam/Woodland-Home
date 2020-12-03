@@ -24,7 +24,7 @@ const SingleFeaturedProduct = ({ product }) => {
             data-item-price={product.price}
             data-item-url="https://woodlandhome.netlify.app/"
             data-item-image={product.image.fixed.src}
-            data-item-name={product.title}
+            data-item-name={product.name}
           >
             Add to Cart
           </button>
