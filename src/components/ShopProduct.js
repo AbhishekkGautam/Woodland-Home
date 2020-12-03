@@ -83,7 +83,7 @@ export default class ShopProduct extends Component {
                           className="snipcart-add-item w-1/2 text-sm py-2 px-4 rounded-md hover:bg-black hover:text-white focus:outline-none transition-all duration-500 ease-linear border"
                           data-item-id={node.id}
                           data-item-price={node.price}
-                          data-item-url="https://marvelcoffee.netlify.app"
+                          data-item-url="https://woodlandhome.netlify.app"
                           data-item-image={node.image.fixed.src}
                           data-item-name={node.title}
                         >
