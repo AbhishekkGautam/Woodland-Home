@@ -16,9 +16,6 @@ const IndexPage = () => (
     <HeroSection />
     <Services />
     <FeaturedProducts />
-    <ShopNow />
-    <Social />
-    <LatestNews />
   </Layout>
 )
 
