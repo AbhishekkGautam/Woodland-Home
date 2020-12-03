@@ -34,6 +34,7 @@ export const query = graphql`
           image {
             fixed(width: 150, height: 150) {
               ...GatsbyContentfulFixed_withWebp
+              src
             }
           }
         }
