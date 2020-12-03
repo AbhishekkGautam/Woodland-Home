@@ -11,7 +11,7 @@ const ContactPage = () => (
     <div className="w-full">
       <div className="max-w-screen-lg xl:pl-4 xl:pr-4 xl:mx-auto h-auto">
         <div className="h-56 md:h-80 text-4xl md:text-5xl lg:text-6xl font-semibold text-white tracking-wide bg-orange-300 flex justify-center items-center">
-          <h1 className="font-poppins">Drop A Message</h1>
+          <h1 className="font-poppins text-black">Drop A Message</h1>
         </div>
         <Contact />
       </div>
