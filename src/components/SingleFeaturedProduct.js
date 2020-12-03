@@ -22,7 +22,7 @@ const SingleFeaturedProduct = ({ product }) => {
             className="snipcart-add-item w-1/2 text-sm py-2 px-4 rounded-md hover:bg-black hover:text-white transition-all duration-500 ease-linear border"
             data-item-id={product.id}
             data-item-price={product.price}
-            data-item-url="https://marvelcoffee.netlify.app"
+            data-item-url="https://woodlandhome.netlify.app"
             data-item-image={product.image.fixed.src}
             data-item-name={product.title}
           >
