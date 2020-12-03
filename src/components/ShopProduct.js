@@ -85,7 +85,7 @@ export default class ShopProduct extends Component {
                           data-item-price={node.price}
                           data-item-url="https://woodlandhome.netlify.app/shop"
                           data-item-image={node.image.fixed.src}
-                          data-item-name={node.title}
+                          data-item-name={node.name}
                         >
                           Add to Cart
                         </button>
